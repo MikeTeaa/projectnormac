@@ -1,0 +1,22 @@
+{
+    "assets": {
+        "map_tiles": { "type": "image", "source": "assets/images/newspreadsheet.png" },
+        "player_spritesheet": { "type": "spritesheet", "source": "assets/images/myplayer_spritesheet.png", "frame_width": 55, "frame_height": 42, "frames": 5, "margin": 1, "spacing": 1 },
+        "evilknight_image": { "type": "image", "source": "assets/images/evilknight3.gif" },
+        "flyingskull_image": { "type": "image", "source": "assets/images/skull3.png"},
+        "fireball_image": { "type": "image", "source": "assets/images/fireball.png" },
+        
+        "level_tilemap": { "type": "tilemap", "source": "assets/maps/mylevel2_map.json" }
+    },
+    "groups": [
+        "goals",
+        "fireballs",
+        "enemies",
+        "players",
+        "hud"
+    ],
+    "map": {
+        "key": "level_tilemap",
+        "tilesets": ["map_tiles"]
+    }
+}
